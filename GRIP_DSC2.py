@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.cluster import KMeans
 
+# data is available at "https://bit.ly/3kXTdox"
 df = pd.read_csv(r"C:\Users\User\Downloads\Iris.csv")
 X = df["SepalLengthCm"]
 Y = df["SepalWidthCm"]
